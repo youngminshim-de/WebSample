@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>naver.html</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- jQuery가 bootstrap.js 보다 먼저 선언되어야 한다. -->
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <!-- header -->
+        <div id="header" role="banner">
+            <div class="special-bg">
+                <div class="group_flex">
+                    <div class="logo_area">
+                        <h1 class="logo-default">
+                            <a href="" class="logo_naver" data-clk="top.logo">
+                                ::before
+                                <span class="blind">네이버</span>
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="service area">
+                        <a id="NM_set_home_btn" href="https://help.naver.com/supprot/welcomePage/guide.help"
+                            class="link_set" data-clk="top.mkhome">
+                        "네이버를 시작페이지로"
+                        ::after
+                        </a>
+                        <i class="sa_bar"></i>
+                        <a href="https://jr.naver.com" class="link_jrnaver" data-clk="top.jrnaver">
+                            <i class="ico_jrnaver"></i>
+                            <span class="blind">쥬니어네이버</span>
+                        </a>
+                        <a href="https://happybean.naver.com" class="link_happbin" data-clk="top.happybean">
+                            <i class="ico_happybin"></i>
+                            <span class="blind">해피빈</span>
+                        </a>
+                        ::after
+                    </div>
+                    <div id="search" class="search_area" data-clk-prefix="sch">
+                        <form action="https://search.naver.com/search.naver" method="GET" role="search" id="sform" name="sform">
+                            <fieldset>
+                                <legend class="blind">검색</legend>
+                                <select name="where" id="where" title="검색 범위 선택" class="blind">
+                                    <!-- skip! 검색설정인듯? -->
+                                </select>
+                                <div class="green_window" style>
+                                    <input id="query" name="query" type="text" title="검색어 입력" maxlength="255" class="input_text" 
+                                        tabindex="1" accesskey="s" style="ime-mode:active;" autocomplete="off" placeholder="검색어를 입력해 주세요."
+                                        onclick="document.getElementById('fbm').value=1;" value="" data-atcmp-element="">
+                                </div>
+                                <button id="search_btn" type="submit" title="검색" tabindex="3" class="btn_submit"
+                                    onclick="window.nclick(this, 'sch.action','','',event);" style>
+                                    <span class="blind">검색</span>
+                                    <span class="ico_search_submit"></span>
+                                </button>
+                            </fieldset>
+                        </form>
+                        <!-- 한글입력기 -->
+                        <a href="#" id="ke_kbd_btn" role="button" class="btn_keyboard" onclick="return false;">
+                            <span class="blind">한글입력기</span>
+                            <span class="ico_keyboard"></span>
+                        </a>
+                        <div id="_nx_kbd" style="display: none;"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- main -->
+        <div id="container" role="main">
+
+        </div>
+        <!-- footer -->
+        <div id="footer" role="contentinfo">
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

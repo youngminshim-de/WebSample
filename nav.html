@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav.html</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- jQuery가 bootstrap.js 보다 먼저 선언되어야 한다. -->
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <style>
+        .list_service{
+            width: 100px;
+        }
+        #ly_service{
+            display: none;
+        }
+        #ly_service.ly_service_open{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="nav.html">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+            </svg> Main
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="row">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="" class="nav-link">메일 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">카페</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">블로그</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">지식IN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">쇼핑</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">사전</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">뉴스</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">증권</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">부동산</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <button class="nav-link btn btn-outline-secondary" id="btn_plus">더보기</button> -->
+                        <!-- href="javascript:"  해줘야한다. 창이 새로고침되서 계속 사라졌던 것..-->
+                        <a href="#" class="nav-link" role="button" id="btn_plus">더보기</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class id="ly_service">
+                <div class="group_service">
+                    <dl class="list_service" style="display: table-cell;">
+                        <dt class="service_title">ㄱ-ㅁ</dt>
+                        <dd class="service_data">
+                            <a href="" name="weather">날씨</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="news">뉴스</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="datalab">데이터랩</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="memo">메모</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="momo">무무</a>
+                        </dd>
+                    </dl>
+                    <dl class="list_service" style="display: table-cell;">
+                        <dt class="service_title">ㅂ-ㅅ</dt>
+                        <dd class="service_data">
+                            <a href="" name="band">밴드</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="land">부동산</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="software">소프트웨어</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="sports">스포츠</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="event">시사</a>
+                        </dd>
+                    </dl>
+                    <dl class="list_service" style="display: table-cell;">
+                        <dt class="service_title">ㅇ</dt>
+                        <dd class="service_data">
+                            <a href="" name="movie">영화</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="audioclip">오디오클립</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="office">오피스</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="webNovel">웹소설</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="webToon">웹툰</a>
+                        </dd>
+                    </dl>
+                    <dl class="list_service" style="display: table-cell;">
+                        <dt class="service_title">ㅈ-ㅋ</dt>
+                        <dd class="service_data">
+                            <a href="" name="car">자동차</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="stock">증권</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="map">지도</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="airplane">항공권</a>
+                        </dd>
+                        <dd class="service_data">
+                            <a href="" name="hotel">호텔</a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        
+    </nav>
+
+    <script>
+
+        document.querySelector("#btn_plus")
+            .addEventListener("click", function(){
+                let tog = document.querySelector("#ly_service")
+                // 해당 class 값이 없을 경우 추가하고 true return
+                // 해당 class 값이 있을 경우 삭제하고 false return
+                if(tog.classList.toggle("ly_service_open")){
+                    // 추가했을경우 즉, 펼치는 경우
+                    this.innerText="접기";
+                }
+                else{
+                    // 삭제됐을경우 즉, 접는경우
+                    this.innerText="펼치기";
+                }  
+            });
+
+    </script>
+        
+    
+</body>
+</html>
