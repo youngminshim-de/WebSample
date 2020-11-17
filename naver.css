@@ -1,0 +1,128 @@
+fieldset, img {
+    border: 0;
+}
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    position: relative;
+    background-color: #fff;
+    z-index: 1000;
+}
+#promotion11{
+    position: absolute;
+    top: 53px;
+    right: 50%;
+    margin-right: -564px;
+}
+#header .special_bg{
+    position: relative;
+    height: 160px;
+    background-color: #fff;
+    border-bottom: 1px solid #e4e8eb;
+}
+#header .group_flex{
+    position: relative;
+    width: 1130px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+#header .logo_area{
+    position: relative;
+    height: 100%;
+}
+#header .logo_default{
+    position: absolute;
+    top: 50%;
+    left: -9px;
+    margin-top: -32px;
+}
+#header .logo_default .logo_naver{
+    display: block;
+}
+#header .logo_default .logo_naver:before {
+    display: inline-block;
+    width: 222px;
+    height: 52px;
+    background-position: 0 -158px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+}
+.blind{
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+#header .service_area{
+    position: absolute;
+    top: 12px;
+    right: 27px;
+}
+#header .service_area .link_set{
+    float: left;
+    font-size: 11px;
+    color: #404040;
+}
+#header .service_area .link_set:after {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -382px -213px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+    margin: -3px 0 0 3px;
+}
+#header .service_area:after{
+    content: "";
+    display: table;
+    table-layout: fixed;
+    clear: both;
+}
+
+#header .service_area .sa_bar{
+    float: left;
+    width: 1px;
+    height: 10px;
+    margin: 3px 7px;
+    background-color: #e4e8eb;
+}
+#header .service_area .link_jrnaver{
+    float: left;
+}
+#header .service_area .link_jrnaver .ico_jrnaver {
+    display: inline-block;
+    width: 60px;
+    height: 10px;
+    background-position: -333px -267px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin: 3px;
+}
+#header .service_area .link_happybin{
+    float: left;
+    margin-left: 6px;
+}
+#header .service_area .link_happybin .ico_happybin {
+    display: inline-block;
+    width: 34px;
+    height: 11px;
+    background-position: -257px -308px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin: 3px 3px 2px;
+}
+
+#footer .notice_area .link_all:after, #gnb .btn_more:after, #gnb .group_keyword .ico_error, #gnb .group_keyword:after, #gnb .group_nav .ly_btn_area .btn_reset:before, #gnb .group_nav .ly_btn_area .btn_set:before, #gnb .list_nav .ico_mail, #gnb .list_nav .ico_tv, #gnb .list_realtime .ico_connect, #gnb .list_service .ico_chk, #gnb .list_service .link_dic:after, #gnb .list_service .service_data.chk_check .ico_chk, #gnb .ly_realtime .filter_area .btn_help:after, #gnb .ly_realtime .filter_area .guide_box .guide_ico_right, #gnb .ly_realtime .filter_area .guide_box.pos_right .guide_tooltip:before, #gnb .ly_realtime .filter_area .guide_tooltip .ico_close, #gnb .ly_realtime .filter_area .guide_tooltip:before, #gnb .ly_realtime .info_area .link_datalab:before, #gnb .ly_realtime .info_area .link_help:after, #gnb .ly_realtime .ly_help .btn_close:before, #gnb .ly_realtime .ly_help .link_detail:after, #gnb .ly_realtime .realtime_area .ico_error, #gnb .ly_realtime .title_area .btn_close:before, #gnb .set_area:before, #gnb.ly_open .group_nav .btn_more:after, #header .logo_default .logo_naver:before, #header .search_area .btn_arw .ico_arr, #header .search_area .btn_arw.fold .ico_arr, #header .search_area .btn_keyboard .ico_keyboard, #header .search_area .btn_keyboard .msg_keybord, #header .search_area .btn_keyboard:focus .ico_keyboard, #header .search_area .btn_keyboard:hover .ico_keyboard, #header .search_area .btn_submit .ico_search_submit, #header .service_area .link_happybin .ico_happybin, #header .service_area .link_happybin:hover .ico_happybin, #header .service_area .link_jrnaver .ico_jrnaver, #header .service_area .link_jrnaver:hover .ico_jrnaver, #header .service_area .link_set:after, #header.ani_fixed .logo_default .logo_naver:before, #header.ani_fixed .search_area .btn_submit .ico_search_submit, .banner_wrap .banner_text:before, .banner_wrap .btn_close:after, .banner_wrap.type_chrome .btn_close:after, .banner_wrap.type_chrome .ico_naver_whale, .btn_theme, .btn_theme:hover, .btn_theme[aria-pressed=true], .btn_theme[aria-pressed=true]:hover, .content_top:before, .content_top:hover:before, .pm_ban_band .btn_close.btn_white:before, .pm_ban_band .btn_close:before, .pm_btn_next .ico_btn, .pm_btn_next:hover .ico_btn, .pm_btn_next_l .ico_btn, .pm_btn_next_l:hover .ico_btn, .pm_btn_prev .ico_btn, .pm_btn_prev:hover .ico_btn, .pm_btn_prev_l .ico_btn, .pm_btn_prev_l:hover .ico_btn, .pm_ico_play, .pm_ico_play_s, .sc_login .ico_naver, .sc_login .sub_area .link_join:before, .sc_login .sub_area .look_box:before, .sc_newscast .error_view .ico_alert, .sc_newscast .group_issue .link_media:after, .sc_newscast .group_title .btn_set.set_on .ico_list, .sc_newscast .group_title .btn_set.set_on .ico_tile, .sc_newscast .group_title .ico_list, .sc_newscast .group_title .ico_set, .sc_newscast .group_title .ico_tile, .sc_newscast .group_title .link_newsstand:after, .sc_newscast .group_title .link_newsstand:before, .sc_newscast .list_view .media_box .btn_close, .sc_newscast .list_view .media_box .btn_plus:before, .sc_newscast .list_view .option_item.option_on:before, .sc_newscast .ly_popup .ico_close, .sc_themecast .audio_view .btn_next, .sc_themecast .audio_view .btn_play, .sc_themecast .audio_view .btn_prev, .sc_themecast .audio_view .ico_audio, .sc_themecast .audio_view .link_logo, .sc_themecast .audio_view .state_box .state, .sc_themecast .audio_view .thumb_mask, .sc_themecast .btn_more_wrap .ico_more, .sc_themecast .chart_view_wrap.type_music .chart_link .link_lyrics:before, .sc_themecast .chart_view_wrap.type_music .chart_link .link_play:before, .sc_themecast .chart_view_wrap.type_music .chart_rank .ico_down, .sc_themecast .chart_view_wrap.type_music .chart_rank .ico_up, .sc_themecast .chart_view_wrap.type_webnobel .chart_rank .ico_dash, .sc_themecast .chart_view_wrap.type_webnobel .chart_rank .ico_down, .sc_themecast .chart_view_wrap.type_webnobel .chart_rank .ico_up, .sc_themecast .chart_view_wrap.type_webtoon .chart_rank .ico_dash, .sc_themecast .chart_view_wrap.type_webtoon .chart_rank .ico_down, .sc_themecast .chart_view_wrap.type_webtoon .chart_rank .ico_up, .sc_themecast .group_edit .ico_close, .sc_themecast .group_edit .ico_reset, .sc_themecast .group_edit .ico_set, .sc_themecast .group_title .info_area .btn_set:before, .sc_themecast .list_edit .edit_item.chk_check .ico_chk, .sc_themecast .list_edit .ico_chk, .sc_themecast .media_view .ico_live, .sc_themecast .poster_view .dsc_data.type_star:before, .sc_themecast .poster_view .ico_age, .sc_themecast .poster_view .ico_age.age_12, .sc_themecast .poster_view .ico_age.age_15, .sc_themecast .theme_title a.title:after, .sc_themecast .topstory_view .badge_live, .sc_themecast .topstory_view .badge_vlive, .sc_themecast .topstory_view .ico_ad, .sc_themecast .topstory_view .topstory_thumb .ico_live, .sc_themecast .topstory_view .topstory_writer .btn_plus:before, .sc_themecast .topstory_view .topstory_writer .btn_plus[aria-pressed=true]:before, .sc_themecast .topstory_view .topstory_writer .ico_creator, .sc_timesquare .banner_area .ico_close, .sc_timesquare .card_air .state.state_bad:before, .sc_timesquare .card_air .state.state_good:before, .sc_timesquare .card_air .state.state_normal:before, .sc_timesquare .card_air .state.state_terrible:before, .sc_timesquare .card_nav .btn_next:before, .sc_timesquare .card_nav .btn_next:hover:before, .sc_timesquare .card_nav .btn_prev:before, .sc_timesquare .card_nav .btn_prev:hover:before, .sc_timesquare .card_stock .rate_down:before, .sc_timesquare .card_stock .rate_up:before, .sc_timesquare .card_stock.type_exchange .name:before, .sc_timesquare .card_weather .max:before{
+    background-image: url(https://s.pstatic.net/static/www/img/uit/2020/sp_main_1f05c0.png);
+    -webkit-background-size: 440px 410px;
+    background-size: 440px 410px;
+    background-repeat: no-repeat;
+}

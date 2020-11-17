@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>naver.html</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="./naver.css">
     <!-- jQuery가 bootstrap.js 보다 먼저 선언되어야 한다. -->
     <script src="./js/jquery-3.5.1.js"></script>
     <script src="./js/bootstrap.js"></script>
@@ -13,33 +13,30 @@
     <div id="wrap">
         <!-- header -->
         <div id="header" role="banner">
-            <div class="special-bg">
+            <div class="special_bg">
                 <div class="group_flex">
                     <div class="logo_area">
-                        <h1 class="logo-default">
+                        <h1 class="logo_default">
                             <a href="" class="logo_naver" data-clk="top.logo">
-                                ::before
                                 <span class="blind">네이버</span>
                             </a>
                         </h1>
                     </div>
-                    <div class="service area">
+                    <div class="service_area">
                         <a id="NM_set_home_btn" href="https://help.naver.com/supprot/welcomePage/guide.help"
                             class="link_set" data-clk="top.mkhome">
                         "네이버를 시작페이지로"
-                        ::after
                         </a>
                         <i class="sa_bar"></i>
                         <a href="https://jr.naver.com" class="link_jrnaver" data-clk="top.jrnaver">
                             <i class="ico_jrnaver"></i>
                             <span class="blind">쥬니어네이버</span>
                         </a>
-                        <a href="https://happybean.naver.com" class="link_happbin" data-clk="top.happybean">
+                        <a href="https://happybean.naver.com" class="link_happybin" data-clk="top.happybean">
                             <i class="ico_happybin"></i>
                             <span class="blind">해피빈</span>
                         </a>
-                        ::after
-                    </div>
+                    </div>//
                     <div id="search" class="search_area" data-clk-prefix="sch">
                         <form action="https://search.naver.com/search.naver" method="GET" role="search" id="sform" name="sform">
                             <fieldset>
@@ -66,11 +63,13 @@
                         </a>
                         <div id="_nx_kbd" style="display: none;"></div>
                     </div>
-
                 </div>
-
             </div>
-
+            <div id="promotion11">
+                <a href="https://search.naver.com/search.naver?where=nexearch&amp;sm=top_ros&amp;fbm=1&amp;ie=utf8&amp;query=%EC%88%9C%EA%B5%AD%EC%84%A0%EC%97%B4%EC%9D%98+%EB%82%A0&amp;mra=bkI3" data-clk="top.ann">
+                    <img src="https://s.pstatic.net/static/www/mobile/edit/2020/1103/mobile_171819443730.png" width="225" height="56"  alt="순국선열의 날">
+                </a>
+            </div>
         </div>
         <!-- main -->
         <div id="container" role="main">
